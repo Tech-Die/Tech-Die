@@ -51,7 +51,7 @@
 .content{
         width: 100%;
         position: absolute;
-        top: 30%;
+        top: 18%;
         transform: translateY(-50%);
         text-align: center;
         color: #000000;
@@ -63,55 +63,6 @@
         -webkit-background-clip: text;
         color: transparent;
 }
-button{
-        width: 300px;
-        padding: 25px 0;
-        text-align: center;
-        margin: 35px 10px;
-        border-radius: 25px;
-        font-weight: bold;
-        bottom: 2px solid #009688;
-        background: transparent;
-        color: #000000;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-}
-span{
-        background: #009688;
-        height: 100%;
-        width: 0%;
-        border-radius: 25px;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        z-index: -1;
-        transition: 0.5s;
-}
-button:hover span{
-        width: 100%;
-}
-button:hover{
-        border: navy;
-}
 hr{
-        margin: 0%;
-}
-h2{
-        font-size: 35px;
-        background-image: linear-gradient(43deg, #4158D0 29%, #C858ce 49%, #FFCC70 94%);
-        -webkit-background-clip: text;
-        color: transparent;
-}
-h3{
-        font-size: 33px;
-}
-.footerbottom{
-        background-color: #000;
-        padding: 20px;
-        text-align: center;
-}
-.footerbottom p{
-        color: white;
-        text-anchor: bold;
+        margin: 5%;
 }
