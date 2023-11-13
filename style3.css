@@ -66,3 +66,12 @@
 hr{
         margin: 5%;
 }
+.footerbottom{
+        background-color: #000;
+        padding: 20px;
+        text-align: center;
+}
+.footerbottom p{
+        color: white;
+        text-anchor: bold;
+}
