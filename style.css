@@ -113,5 +113,20 @@ h3{
 }
 .footerbottom p{
         color: white;
-        text-anchor: bold;
+        
+}
+form{
+        background: grey;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 10px;
+        margin-top: 1000px;
+        margin-left: 150px;
+}
+h3{
+        text-align: center;
+        
 }
