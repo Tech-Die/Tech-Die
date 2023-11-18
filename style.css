@@ -113,7 +113,7 @@ h3{
 }
 .footerbottom p{
         color: white;
-        
+        font-weight: bold;
 }
 form{
         background: grey;
@@ -125,8 +125,32 @@ form{
         border-radius: 10px;
         margin-top: 1000px;
         margin-left: 150px;
+        height: 400px;
 }
-h3{
+form h3{
         text-align: center;
-        
+        color: black;
+        font-weight: 800;
+        margin-bottom: 20px;
+}
+form input, form textarea{
+        border: 0;
+        margin: 10px 0;
+        padding: 20px;
+        outline: none;
+        background: #f5f5f5;
+        font-size: 16px;
+}
+form button{
+        padding: 15px;
+        background: #ff5361;
+        color: #fff;
+        font-size: 18px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 150px;
+        margin: 20px auto 0;
+        border-radius: 30px;
+        font-weight: bold;
 }
